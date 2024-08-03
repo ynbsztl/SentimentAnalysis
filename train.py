@@ -24,6 +24,7 @@ if __name__ == "__main__":
         maxlen=args.maxlen_train,
         tokenizer=analyzer.tokenizer,
     )
+    # 这个是验证集，看我们训练的怎么样
     val_set = SSTDataset(
         filename="data/dev.tsv", maxlen=args.maxlen_val, tokenizer=analyzer.tokenizer
     )

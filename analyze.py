@@ -14,3 +14,4 @@ if __name__ == "__main__":
         sentiment, percentage = analyzer.classify_sentiment(text)
         print(f"{sentiment} sentiment with {percentage}% probability.")
         text = input("Input sentiment to analyze: ")
+
